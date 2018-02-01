@@ -14,3 +14,4 @@ R learning resources
         + [Matrix](http://www.r-tutor.com/r-introduction/matrix)
         + [List](http://www.r-tutor.com/r-introduction/list)
         + [Data Frame](http://www.r-tutor.com/r-introduction/data-frame)
+* [Code School](http://tryr.codeschool.com/)
