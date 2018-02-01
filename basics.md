@@ -443,7 +443,7 @@ my_matrix
     ## b    4    5    6
     ## c    7    8    3
 
-We can access the third row by using subscripts, i.e. `our variable[row, ]`...
+We can access the third row by using subscripts, i.e. `variable[row, ]`...
 
 ``` r
 third_row <- my_matrix[3,]
@@ -453,7 +453,7 @@ third_row
 
     ## [1] 7 8 3
 
-We can do the same to the third column with `our variable[, column]`, which also gives us our `row` names...
+We can do the same to the third column with `variable[, column]`, which also gives us our `row` names...
 
 ``` r
 third_column <- my_matrix[, 3]
@@ -475,7 +475,7 @@ bottom_right
     ## c 
     ## 3
 
-If you reexamine the last three examples, the convention for subscripting then is `my_matrix[`row`,`column`]`
+Make sure you understand that the convention for subscripting then is `my_matrix[`row`,`column`]`
 
 ##### `data.frame`
 
