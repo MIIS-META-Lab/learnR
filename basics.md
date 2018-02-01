@@ -1,7 +1,6 @@
-Introduction to `R`
+Getting Your Feet Wet in `R`
 ================
-Brendan Knapp
-September 22, 2017
+
 
 -   [Getting Acquainted](#getting-acquainted)
     -   [What is `R`?](#what-is-r)
