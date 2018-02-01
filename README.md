@@ -9,7 +9,7 @@ R learning resources
         + [Integer](http://www.r-tutor.com/r-introduction/basic-data-types/integer)
         + [Logical/Boolean](http://www.r-tutor.com/r-introduction/basic-data-types/logical)
         + [Character](http://www.r-tutor.com/r-introduction/basic-data-types/character)
-    + [Expanded Data Types]
+    + Expanded Data Types
         + [Vector](http://www.r-tutor.com/r-introduction/vector)
         + [Matrix](http://www.r-tutor.com/r-introduction/matrix)
         + [List](http://www.r-tutor.com/r-introduction/list)
