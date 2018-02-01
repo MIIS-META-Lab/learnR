@@ -23,7 +23,7 @@
     + [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
     
 # Online Books
-* [R for Data Science][http://r4ds.had.co.nz/]
+* [R for Data Science](http://r4ds.had.co.nz/)
 * [Modern Dive](http://moderndive.com/)
 * [Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/)
 * [R tips: 16 HOWTO’s with examples for data analysts](https://bookdown.org/lyzhang10/lzhang_r_tips_book/)
@@ -31,6 +31,8 @@
 # Domain Specific Resources
 * Spatial
     + [Geocomputation with R](https://bookdown.org/robinlovelace/geocompr/)
+    
     + [Spatial Analysis in R with sf and raster](https://www.datacamp.com/courses/spatial-analysis-in-r-with-sf-and-raster)
+    
 * Text
     + [Text Mining with R](https://www.tidytextmining.com/)
