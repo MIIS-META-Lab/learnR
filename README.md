@@ -40,6 +40,7 @@
     + [Spatial Analysis in R with sf and raster](https://www.datacamp.com/courses/spatial-analysis-in-r-with-sf-and-raster)
 * Text
     + [Text Mining with R](https://www.tidytextmining.com/)
+    + [R-Specific Regex Tester](https://spannbaueradam.shinyapps.io/r_regex_tester/)
 
 # Other Curated Lists
 
