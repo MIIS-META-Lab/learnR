@@ -20,4 +20,4 @@
 
 * [Code School](http://tryr.codeschool.com/)
 * [DataCamp](https://www.datacamp.com/)
-        + [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
+    + [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
