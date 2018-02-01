@@ -29,6 +29,10 @@
 * [Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/)
 * [R tips: 16 HOWTO’s with examples for data analysts](https://bookdown.org/lyzhang10/lzhang_r_tips_book/)
 
+# Video Tutorials
+
+* [Variance Explained](http://varianceexplained.org/RData/)
+
 # Domain Specific Resources
 
 * Spatial
