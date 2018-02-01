@@ -1,6 +1,8 @@
 # learnR
 R learning resources
 
+* [Getting Your Feet Wet](https://github.com/MIIS-META-Lab/learnR/blob/master/basics)
+
 # Introduction to R
 
 * [R Tutor](http://www.r-tutor.com/r-introduction)
