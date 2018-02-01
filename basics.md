@@ -125,7 +125,11 @@ Starting a Project
 
 By using `RStudio`'s project manager, we can eliminate many of the common headaches associated with file management.
 
-Keeping our work in a project: \* automatically sets our `working directory` to the project's folder \* creates a `.Rproj` file that allows us to easily return to our project \* facilitates simple sharing our code, data, and reports
+Keeping our work in a project: 
+
+* automatically sets our `working directory` to the project's folder
+* creates a `.Rproj` file that allows us to easily return to our project 
+* facilitates simple sharing our code, data, and reports
 
 ![Alt text](https://image.slidesharecdn.com/20150422reproresr8-160404131652/95/reproducible-research-in-r-and-r-studio-20-638.jpg?cb=1459775831)
 
