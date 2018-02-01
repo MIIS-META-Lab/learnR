@@ -485,4 +485,4 @@ The most important differences for now is that a `matrix` should
 
 * a `matrix` should contain data that are of the same type, while a `data.frame` contain mixed types of data 
 * `data.frame`s are more general in that different columns can have different types of data 
-        + this is what you'll typically see when dealing with data "in the wild"
+    + this is what you'll typically see when dealing with data "in the wild"
