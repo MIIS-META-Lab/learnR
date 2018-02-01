@@ -1,6 +1,6 @@
 # learnR
 
-* [Getting Your Feet Wet](https://github.com/MIIS-META-Lab/learnR/blob/master/basics)
+* [Getting Your Feet Wet](https://github.com/MIIS-META-Lab/learnR/blob/master/basics.md)
 
 # Introduction to R
 
