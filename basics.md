@@ -479,9 +479,15 @@ Make sure you understand that the convention for subscripting then is `my_matrix
 
 ##### `data.frame`
 
-A `data.frame` is very similar to a `matrix` in that they are both forms of tabular data containing `column`s and `row`s, but there are some differences in their use: \* `column`s in a `matrix` should contain data that are of the same type, while a `data.frame` contain mixed types of data \* all `column`s in a matrix should be of the same length, i.e. you don't have missing data \* the data in a `matrix` is accessible by calling it by its `[row, ]` and `[ , column]`, which we can't do with a `data.frame` \* `data.frame`s are more general in that different columns can have different types of data + this is what you'll typically see when dealing with data "in the wild"
+A `data.frame` is very similar to a `matrix` in that they are both forms of tabular data containing `column`s and `row`s, but there are some differences in their use.
 
-We're going to stick with `data.frame`s (and its variations) from here on... but let's cover some other stuff first
+The most important differences for now is that a `matrix` should 
+
+* a `matrix` should contain data that are of the same type, while a `data.frame` contain mixed types of data 
+* `data.frame`s are more general in that different columns can have different types of data 
+        + this is what you'll typically see when dealing with data "in the wild"
+
+We're going to stick with `data.frame`s (and a modern variation) from here on... but let's cover some other stuff first
 
 Dealing with packages
 =====================
