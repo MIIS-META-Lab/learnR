@@ -37,6 +37,9 @@
 * Text
     + [Text Mining with R](https://www.tidytextmining.com/)
 
-# Curated Directory of Topics
+# Other Curated Lists
 
 * [Awesome R](https://github.com/qinwf/awesome-R)
+    + topics and packages
+* [DataScienceR](https://github.com/ujjwalkarn/DataScienceR)
+    + learning resources
