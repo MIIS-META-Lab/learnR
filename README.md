@@ -31,8 +31,6 @@
 # Domain Specific Resources
 * Spatial
     + [Geocomputation with R](https://bookdown.org/robinlovelace/geocompr/)
-    
     + [Spatial Analysis in R with sf and raster](https://www.datacamp.com/courses/spatial-analysis-in-r-with-sf-and-raster)
-    
 * Text
     + [Text Mining with R](https://www.tidytextmining.com/)
