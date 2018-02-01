@@ -145,7 +145,7 @@ We're going to use `R Markdown` for our code as it lets us:
 -   Reproduce our results
     -   Reproducibility is the ability of an entire analysis of an experiment or study to be duplicated, either by the same researcher or by someone else working independently.
 
-When we're doing any sort of analysis, we want to keep in mind that our data tells a story. `R Markdown` lets us turn our analyses into professional quality documents, reports, presentations, and dashboard.
+When we're doing any sort of analysis, we want to keep in mind that our data tells a story. `R Markdown` lets us turn our analyses into professional quality documents, reports, presentations, and dashboards.
 
 Creating a new `.Rmd` file
 --------------------------
