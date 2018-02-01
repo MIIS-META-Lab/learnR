@@ -1,5 +1,4 @@
 # learnR
-R learning resources
 
 * [Getting Your Feet Wet](https://github.com/MIIS-META-Lab/learnR/blob/master/basics)
 
