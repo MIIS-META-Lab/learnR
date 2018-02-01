@@ -175,23 +175,28 @@ Adding a Code `chunk`
 
 You can insert a new code chunk in a few ways:
 
--   Click the “insert new code chunk” button on the top right hand of this panel. It looks like a green square with an arrow.
-    -   Your version may look a bit different ![Alt text](https://ourcodingclub.github.io/img/Code_Chunk_Screenshot.jpg)
--   Copy and paste an existing chunk and change its content and properties.
+* Click the “insert new code chunk” button on the top right hand of this panel. It looks like a green square with an arrow.
+        + Your version may look a bit different ![Alt text](https://ourcodingclub.github.io/img/Code_Chunk_Screenshot.jpg)
+* Copy and paste an existing chunk and change its content and properties.
 
 You may notice that there are setting you can customize for each `chunk`. Don't worry about that for now, but realize it's there for the future.
 
 Programming in `R`
 ==================
 
-Go ahead and insert a new `R` code \`chunk.
+Go ahead and insert a new `R` code `chunk`.
 
-In order to run your code, you can: \* click the green arrow on the right side of the code `chunk` \* click `Run` at the top of your screen \* use `Ctrl` + `Enter`/`Return` to run your current line \* use `Ctrl` + `Shift` + `Enter` to run your current chunk
+In order to run your code, you can: 
+
+* click the green arrow on the right side of the code `chunk` 
+* click `Run` at the top of your screen 
+* use _Ctrl_ + _Enter_/_Return_ to run your current line 
+* use _Ctrl_ + _Shift_ + _Enter_ to run your current chunk
 
 Basic Arithmetic
 ----------------
 
-You're going to see `#` in this code, which is used to comment within code. `R` sees `#` and knows not to try and run everything following it.
+You're going to see `#` in this code, which is used to comment within code. `R` sees `#` and knows not to try and run execute whatever follows it on the same line.
 
 ``` r
 1 + 2   # addition
@@ -232,7 +237,13 @@ You're going to see `#` in this code, which is used to comment within code. `R` 
 Variable Assignment
 -------------------
 
-As opposed to many other programming languages, proper `R` syntax uses `<-` for variable assignment, rather than the more common use of `=`. Think of using proper syntax as being analogous to writing a paper in the proper format. Ensuring that your code is readable should be a priority, even if you will never share it.
+As opposed to many other programming languages, proper `R` syntax uses `<-` for variable assignment, rather than the more commonly seen use of `=` you may have seen in C-based languages like Python. 
+
+While using `=` will variable accomplish the task of assignment without any side-effects in the vast majority of cases, you should stick to the `R` convention of `<-` as `=` there are different uses for each, your code will be more readable to other useRs, the habit will set you up to read the code of other useRs better, and you won't be forced to break the habit in collaborative projects that enforce proper syntax (read: 99% of them).
+
+Think of using proper syntax as being analogous to writing a paper in the proper format. Ensuring that your code is readable should be a priority, even if you will never share it. You will likely encounter challenges that you overcame months earlier. You want to be able to return to your old code and actually understand the solution you used.
+
+On that note, just what the heck is assignment anyways?
 
 When programming, you will want to be able to assign data to variables that you can use in other parts of your code.
 
@@ -327,7 +338,10 @@ To compare objects, we often want to evaluate whether an `object` is equal to an
 
     ## [1] TRUE
 
-We can also combine our `logical` evaluations. \* `&` simply means `and`, which we can use to evaluate whether 2 (or more!) conditions are both `TRUE`. If either one is `FALSE`, then the whole expression is `FALSE`.
+We can also combine our `logical` evaluations. 
+
+* `&` simply means `and`, which we can use to evaluate whether 2 (or more!) conditions are both `TRUE`. 
+        + If either one is `FALSE`, then the whole expression is `FALSE`.
 
 ``` r
 1 == 1 & 2 == 2
@@ -341,7 +355,7 @@ We can also combine our `logical` evaluations. \* `&` simply means `and`, which 
 
     ## [1] FALSE
 
--   `|` means `or`, which we can use to evaluate whether or not any conditions are `TRUE`.
+* `|` means `or`, which we can use to evaluate whether or not any conditions are `TRUE`.
 
 ``` r
 1 == 1 | 2 == 3
@@ -383,7 +397,9 @@ c
 
     ## [1] 7 8 3
 
-... and we want to combine our `vector`s into a `matrix` using `rbind()` \* `rbind()` simply stands for `row bind`, and treats our `vector`s as rows in a `matrix`
+... and we want to combine our `vector`s into a `matrix` using `rbind()` 
+
+* `rbind()` simply stands for `row bind`, and treats our `vector`s as rows in a `matrix`. For now, think of a `matrix` as a collection of `vector`s.
 
 ``` r
 my_matrix <- rbind(a, b, c)
@@ -414,7 +430,7 @@ class(my_matrix)
 
 ![](http://i.imgur.com/7j15tXU.jpg)
 
-Don't worry about what `class` is referring to now, but just realize there are ways to figure out what type of data you're dealing with.
+Don't worry about what `class` is referring to now, but just realize there are ways to figure out which type of data you're dealing with.
 
 Returning to the `matrix` we already created...
 
@@ -458,6 +474,8 @@ bottom_right
 
     ## c 
     ## 3
+
+If you reexamine the last three examples, the convention for subscripting then is `my_matrix[`row`,`column`]`
 
 ##### `data.frame`
 
