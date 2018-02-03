@@ -1,5 +1,7 @@
 # learnR
 
+A curated collection of R learning resources for MIIS students.
+
 * [Getting Your Feet Wet](https://github.com/MIIS-META-Lab/learnR/blob/master/basics.md)
 
 # Introduction to R
